@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Problem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+
+    <style>
+        body {
+            text-align: center;
+            margin: 30px 300px 30px;
+            background-color: #1a1f36;
+        }
+        
+        .txtc {
+            color: rgb(21, 102, 150);
+            font-size: 40px;
+            font-weight: 700;
+            text-shadow: 2px 3px 8px rgb(59, 61, 61);
+            ;
+        }
+        
+        .bgc1 {
+            background-color: #27658b;
+        }
+        
+        .bgc2 {
+            background: linear-gradient(to bottom, #af68c5, #1f3e6d);
+        }
+        
+        .bgc3 {
+            background: linear-gradient(to bottom, #af68c5, #1f696d);
+        }
+        
+        .spc {
+            display: grid;
+            justify-content: space-between;
+        }
+        
+        .btn {
+            border: none;
+            border-radius: 0.8rem;
+            cursor: pointer;
+            padding: 0.7rem 0.8rem;
+            background: linear-gradient(to bottom, #af68c5, #1f3e6d);
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            color: #fff;
+        }
+        
+        .vl {
+            border-left: 1px solid rgb(229, 229, 232);
+            height: 10px;
+        }
+    </style>
+    <h1 class="txtc">ADD PROBLEM</h1>
+    <table class="spc grid gap-3">
+        <tr>
+            <div class=" bgc2 input-group input-group-lg d-inline-flex p-2 g-col-6 ">
+
+                <input type="text " class="form-control bgc3 " placeholder=" Enter Problem Name " Type to search... aria-label="Sizing example input " aria-describedby="inputGroup-sizing-lg ">
+            </div>
+        </tr>
+        <tr>
+            <div class=" bgc2 input-group input-group-lg d-inline-flex p-2 ">
+
+                <input type="text " class="form-control bgc3 " placeholder=" Enter Problem Link " aria-label="Sizing example input " aria-describedby="inputGroup-sizing-lg ">
+            </div>
+        </tr>
+        <div class="grid gap-3">
+            <div class="p-2 g-col-3">
+                <select class="form-select bgc2" aria-label="Default select example ">
+                    <option selected>Platform</option>
+                    <option value="1 ">GFG</option>
+                    <option value="2 ">LEETCODE</option>
+                    <option value="3 ">HACKER-RANK</option>
+                    <option value="4 ">HACKER-EARTH</option>
+                    <option value="5 ">CODE-CHEF</option>
+                    <option value="6 ">TOP CODER</option>
+                    <option value="7 ">SPOJ</option>
+                    <option value="8 ">CODE STUDIO</option>
+                    <option value="9 ">CODE FORCES</option>
+                    <option value="10 ">AT CODER</option>
+                    <option value="11 ">Any Other</option>
+                  </select>
+            </div>
+            <div class="p-2 g-col-3">
+                <select class="form-select bgc2 " aria-label="Default select example ">
+                    <option selected>Topic/Tag</option>
+                    <option value="1 ">Basics</option>
+                    <option value="2 ">Arrays</option>
+                    <option value="3 ">Matrix-String</option>
+                    <option value="4 ">Recursion</option>
+                    <option value="5 ">Binary Search</option>
+                    <option value="6 ">Sorting</option>
+                    <option value="7 ">Linked Lists</option>
+                    <option value="8 ">Stack</option>
+                    <option value="9 ">Queue</option>
+                    <option value="10 ">Hashing</option>
+                    <option value="12 ">Heap</option>
+                    <option value="13 ">Tree</option>
+                    <option value="14 ">Graph</option>
+                    <option value="15 ">Greedy</option>
+                    <option value="15 ">Dynamic Programming</option>
+                    <option value="14 ">Bit Manipulation</option>
+                    <option value="15 ">Others</option>
+                  </select>
+            </div>
+        </div>
+
+
+
+    </table>
+    <style>
+        .col {
+            background-color: #081b68;
+        }
+        /* Blue */
+        
+        .col2 {
+            background-color: #050a52;
+        }
+        /* Red */
+    </style>
+
+    <div class="mb-3 ">
+        <textarea class="form-control bgc3 " placeholder=" write about the problem,your approach,important concepts,etc. " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+    </div>
+    <class="btn-group">
+        <button class="btn">Solved</button>
+
+        <button class="btn">Unsolved</button>
+        </div>
+        <div class="d-grid gap-2 ">
+            <br>
+            <button class="btn btn-primary bgc2" type="button ">Add Problem</button>
+
+        </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+</body>
+
+</html>
